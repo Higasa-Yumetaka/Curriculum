@@ -1,0 +1,97 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="25dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/curriculum_back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center_vertical"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            app:backgroundTint="#ffffff"
+            app:fabSize="auto"
+            app:borderWidth="0dp"
+            app:elevation="0dp"
+            android:contentDescription="Back"
+            tools:ignore="HardcodedText" />
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/curriculum_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center_vertical"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            app:backgroundTint="#ffffff"
+            app:fabSize="auto"
+            app:borderWidth="0dp"
+            app:elevation="0dp"
+            android:contentDescription="Back"
+            tools:ignore="HardcodedText" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="500" />
+        <TextView
+            android:id="@+id/week"
+            android:textSize="24sp"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="500" />
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/setting_button"
+            android:layout_width="176dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            app:borderWidth="0dp"
+            app:elevation="0dp"
+            android:src="@drawable/png_setting"
+            app:backgroundTint="#ffffff"
+            app:fabSize="auto"
+            app:rippleColor="@color/memo_add"
+            android:contentDescription="Save"
+            tools:ignore="HardcodedText" />
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/switch_button"
+            android:layout_width="176dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            app:borderWidth="0dp"
+            app:elevation="0dp"
+            android:src="@drawable/pic_switch"
+            app:backgroundTint="#ffffff"
+            app:fabSize="auto"
+            app:rippleColor="@color/memo_add"
+            android:contentDescription="Save"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/curriculum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+</LinearLayout>

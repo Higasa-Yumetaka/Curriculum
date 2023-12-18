@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">课程表</string>
+    <string name="search_hint">搜索便签</string>
+    <string name="memo">便签</string>
+    <string name="all_memo">全部便签</string>
+    <string name="add_note_title">标题</string>
+    <string name="add_note_content">开始书写</string>
+    <string name="date_example">5月14日 下午6:00</string>
+    <string name="count_">字</string>
+    <string name="zero">0</string>
+    <string name="delimiter">  |  </string>
+    <string name="start_writing">开始书写</string>
+    <string name="delete_note_title">删除笔记</string>
+    <string name="delete_note_content">确认要删除该条笔记吗？</string>
+    <string name="todo">待办</string>
+
+    <string-array name="course_times">
+        <item>第1–2节</item>
+        <item>第3–4节</item>
+        <item>第5–6节</item>
+        <item>第7–8节</item>
+    </string-array>
+</resources>
